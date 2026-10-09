@@ -1,0 +1,6 @@
+| No. | Temuan | Perbaikan yang diperlukan | Alasan |
+| :--- | :--- | :--- | :--- |
+| 1 | Aktor Mahasiswa ada di dalam batas sistem. | Memindahkan Aktor Mahasiswa ke luar batas sistem. | Aktor adalah entitas yang berinteraksi dengan sistem, sehingga posisinya harus berada di luar kotak batas sistem. |
+| 2 | Fungsi "Lihat jadwal kuliah" digambar sebagai kotak biasa. | Mengubah bentuk kotak menjadi bentuk elips. | Sesuai standar UML, notasi untuk sebuah use case (fungsi sistem) digambarkan menggunakan bentuk elips, bukan persegi panjang. |
+| 3 | Aktor Mahasiswa dihubungkan dengan fungsi "Kelola jadwal kuliah". | Menghapus garis asosiasi antara Mahasiswa dan "Kelola jadwal kuliah", lalu hubungkan Mahasiswa dengan "Lihat jadwal kuliah" dan Admin akademik dengan "Kelola jadwal kuliah". | Berdasarkan deskripsi skenario, mahasiswa tidak mempunyai hak mengelola jadwal. Hak pengelolaan ada pada Admin Akademik, sedangkan mahasiswa hanya mempunyai hak untuk melihat jadwal. |
+| 4 | Identitas diagram menggunakan judul "Sistem Laboratorium". | Mengganti judul identitas diagram dengan judul "Sistem Informasi Akademik". | Konteks skenario latihan ini berfokus pada Sistem Informasi Akademik, sehingga penamaan sistem harus sesuai dengan masalah dan yang dikerjakan. |
