@@ -43,7 +43,12 @@ dan memberikan catatan keputusan.
 | SIA-UC06 | Proses Keputusan KRS          | Fungsi utama Dosen Wali          | 
 
 <!-- Relasi Include -->
+SIA-UC03 «include» SIA-UC04
+Alasan : Memeriksa Kelengkapan, Prasyarat, dan benturan jadwal wajib dijalankan sebagai bagian tak terpisahkan dari proses pengajuan validasi KRS
 
 <!-- Relasi Extend -->
-
+SIA-UC05 «extend» SIA-UC03
+Extension Point : Bukti Pengajuan Tersedia, pada konfirmasi penyimpanan.
+Kondisi : [Mahsasiswa Memilih Mengunduh Bukti Pengajuan]
+Alasan : Pengajuan KRS tetap berhasil disimpan meskipun mahasiswa tidak memilih mengunduh bukti.
 
