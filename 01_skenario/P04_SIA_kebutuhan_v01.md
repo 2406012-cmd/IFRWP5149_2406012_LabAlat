@@ -19,7 +19,7 @@
 <!-- Tabel Aktor -->
 | Aktor             |                        Kedudukan                               |          Tujuan Terhadap Sistem          |
 | ----------------- | -------------------------------------------------------------- | ---------------------------------------- |
-| Civitas Akademika | Umum (General), baru pada Pertemuan 4 | Peran umum bagi sivitas akademik; mewariskan fungsinya kepada Mahasiswa dan Dosen. |
+| Civitas Akademika | Umum (General), baru pada Pertemuan 4                          | Peran umum bagi sivitas akademik; mewariskan fungsinya kepada Mahasiswa dan Dosen. |
 | Mahasiswa         | Khusus dari Civitas Akademika, tetap dari Pertemuan sebelumnya | Melihat kalender akademik (diwarisi), mengajukan KRS, melihat jadwal, dan melihat KHS (serta unduh bukti KRS). |
 | Dosen             | Khusus dari Civitas Akademika, baru pada Pertemuan 4           | Melihat kalender akademik (diwarisi) dan menginput nilai mata kuliah yang diampunya. |
 | Admin Akademik    | Tetap dari Pertemuan 2                                         | Mengelola jadwal kuliah dan mengelola data mahasiswa. |
@@ -46,7 +46,7 @@
 - Generalization Actor
 Aktor Umum : Civitas Akademika (dibuat khusus pada Pertemuan 4 sebagai peran umum yang mencakup civitas akademik).   
 Aktor Khusus : Mahasiswa dan Dosen 
-Fungsi yang Diwarisi : Karena Mahasiswa dan Dosen sama-sama dapat melihat kalender akademik (SIA-UC07), fungsi ini ditempatkan dan dihubungkan satu kali saja dari aktor umum Civitas Akademika.
+Fungsi yang Diwariskan : Karena Mahasiswa dan Dosen sama-sama dapat melihat kalender akademik (SIA-UC07), fungsi ini ditempatkan dan dihubungkan satu kali saja dari aktor umum Civitas Akademika.
 
 - Generalization Use Case
 SIA-UC10 (Kelola Data Mahasiswa) : Adalah use case umum.
