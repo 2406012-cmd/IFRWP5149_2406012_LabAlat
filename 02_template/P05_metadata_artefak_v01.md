@@ -1,7 +1,7 @@
 ID artefak : LAB/SIA-P05-UC
 Judul : Penulisan Use Case Scenario
 Pertemuan : 05
-Sumber skenario : LAB-R01 - LAB-R12
+Sumber skenario : LAB-UC01 - LAB-UC04 - LAB-UC05
 Jenis/status : Use Case Diagram / Geneneralization and Collaboration / Use Case Scenario
 Kakas : draw.io
 Pembuat : 2406012 Ruby Nabiel Muzaffar Hidayat
